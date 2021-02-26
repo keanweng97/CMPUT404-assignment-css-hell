@@ -1,0 +1,115 @@
+html {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.cover {
+    background-color: rgb(53, 143, 179);
+    color: white;
+    height: 18rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    display: flex;
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(80, 80, 80), grey);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 1em;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar li a:hover {
+    color: skyblue
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.content-text .content-section {
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about img {
+    /* object-fit: cover; */
+    align-self: center;
+    max-width: 20%;
+}
+
+#about .about-text {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#history li {
+    margin-bottom: 0.5rem;
+}
+
+#contact .contact-line {
+    display: flex;
+    align-items: center;
+}
+
+#contact i {
+    font-size: x-large;
+    margin-right: 0.5rem;
+}
+
+.sidebar {
+    background-color: rgb(209, 221, 228);
+    margin-left: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.sidebar h1 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.sidebar h2 {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar h4 {
+    margin: 0.1rem 0;
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5;
+}

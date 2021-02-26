@@ -1,0 +1,123 @@
+html {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.cover {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+    text-shadow: 0 0 10px rgb(80, 255, 0);
+    height: 18rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    display: flex;
+}
+
+.cover:hover {
+    color:black;
+    text-shadow: 0 0 10px red;
+}
+
+.navbar {
+    background-image: linear-gradient(yellow, gold, orange );
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 1em;
+}
+
+.navbar li a {
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar li a:hover {
+    color: yellow
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.content-text .content-section {
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about img {
+    /* object-fit: cover; */
+    align-self: center;
+    max-width: 20%;
+}
+
+#about .about-text {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#history li {
+    margin-bottom: 0.5rem;
+}
+
+#contact .contact-line {
+    display: flex;
+    align-items: center;
+}
+
+#contact i {
+    font-size: 5rem;
+    margin-right: 0.5rem;
+}
+
+.sidebar {
+    background-color: magenta;
+    margin-left: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color:darkslategray;
+}
+
+.sidebar h1 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.sidebar h2 {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar h4 {
+    margin: 0.1rem 0;
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5;
+}
