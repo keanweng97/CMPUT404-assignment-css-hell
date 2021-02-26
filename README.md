@@ -38,8 +38,12 @@ we added a simple caption below the image:
 <figcaption>Book cover</figcaption>
 ```
 
-References
+References/Resouces
 ====================
+ - CC-BY-ND License by Creative Commons from https://creativecommons.org/licenses/by-nd/2.0/ca/
+ - Flexbox Guide by [Chris Coyier](https://css-tricks.com/author/chriscoyier/) from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  - Paper texture by Stephen Gilbert from https://www.transparenttextures.com/textured-paper.html 
+ - Rainbow Background by w3schools from https://www.w3schools.com/css/css3_gradients.asp 
 
 License/Copyright
 =================
